@@ -3,6 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 1em;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul li {
+    list-style-type: none;
 }
 
 
@@ -19,15 +27,39 @@
     flex-direction: column;
 
 }
-/* .container {
+.container {
     max-width: 1200px;
-} */
+    margin: 0 auto;
+}
 
 
 
 /* HEADER */
-header {
+.main-header {
     padding: 1rem;
+}
+.main-header .container {
+    display: flex;
+}
+.main-header .logo {
+    flex: 1 1 0;
+    padding: .5rem;
+}
+.main-header .menu {
+    flex: 3 1 0;
+    padding: .5rem;
+}
+.main-header .menu ul {
+    display: flex;
+    justify-content: center;
+}
+.main-header .menu a {
+    padding: .25rem;
+}
+.main-header .login {
+    flex: 1 1 0;
+    padding: .5rem;
+    text-align: end;
 }
 
 
