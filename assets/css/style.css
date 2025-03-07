@@ -4,3 +4,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+/* UTILITY */
+.debug, 
+.debug * {
+    border: 2px dashed red;
+    background-color: #ff000022;
+}
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+/* .container {
+    max-width: 1200px;
+} */
+
+
+
+/* HEADER */
+header {
+    padding: 1rem;
+}
+
+
+
+/* MAIN */
+main {
+    padding: 1rem;
+    flex-grow: 1;
+}
+
+
+
+/* FOOTER */
+footer {
+    padding: 1rem;
+}
