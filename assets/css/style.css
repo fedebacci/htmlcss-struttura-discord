@@ -27,9 +27,18 @@ ul li {
     flex-direction: column;
 
 }
+.wrapper {
+    display: flex;
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
+}
+section {
+    padding: 2rem 0;
+}
+.box {
+    min-height: 10vh;
 }
 
 
@@ -37,9 +46,6 @@ ul li {
 /* HEADER */
 .main-header {
     padding: 1rem;
-}
-.main-header .container {
-    display: flex;
 }
 .main-header .logo {
     flex: 1 1 0;
@@ -66,8 +72,31 @@ ul li {
 
 /* MAIN */
 main {
-    padding: 1rem;
+    /* padding: 1rem; */
     flex-grow: 1;
+}
+.hero .box {
+    min-height: 33vh;
+}
+.left .box,
+.right .box {
+    min-height:50vh;
+}
+.box-small {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.box-accent {
+    flex: 1 1 66%;
+}
+.box-neutral {
+    flex: 1 1 33%;
+}
+.right .box-accent {
+    order: 1;
+}
+.big .box {
+    min-height: 75vh;
 }
 
 
